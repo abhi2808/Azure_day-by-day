@@ -10,18 +10,18 @@ benefits-> scalability, high-avability, disaster recovery
  Avability Zone-> data centers, Region->geographical area with multiple data-centers. (spread for reduced latency)
 
 
-## Azure
+# Azure
 
 provides: IAAS(VM), PAAS(DB), SAAS(Outlook)
 
 
-# resource, resource groups
+## resource, resource groups
 what you create using a service is a resource created by azure resource manager(as per your configs)(for both ui and cli).
 
 resource groups are groups of various different types of resources created, helps: tracking and managing(access, permissions etc). generally grouped by project and environments. a single resource can have only 1 resource group attatched.
 
 
-# vms
+## vms
 
 A-series: retiring
 Bs-series: free trial, leaarning, pocs
@@ -44,4 +44,3 @@ practiced setting up jenkins on a azure-vm.
 ![alt text](image-1.png)
 
 
-# networking
