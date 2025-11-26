@@ -23,16 +23,16 @@ resource groups are groups of various different types of resources created, help
 
 ## vms
 
-A-series: retiring
-Bs-series: free trial, leaarning, pocs
-D-series: general purpose
-E-series: memory optimized(redis)
-F-series: compute intensive(multi threaded, batch apps, gaming)
-G-series: more memory and storage optimized
-H-series: high performance
-Ls-series: storage optimized(DBs)
-M-series: in-memory workload(largest)
-N-series: gpu enables(ML)
+- A-series: retiring
+- Bs-series: free trial, leaarning, pocs
+- D-series: general purpose
+- E-series: memory optimized(redis)
+- F-series: compute intensive(multi threaded, batch apps, gaming)
+- G-series: more memory and storage optimized
+- H-series: high performance
+- Ls-series: storage optimized(DBs)
+- M-series: in-memory workload(largest)
+- N-series: gpu enables(ML)
 
 chmod 600 (pem-file) //making pem file less accessible
 ssh: ssh -i (path to pem file) (username)@(public ip)
@@ -40,6 +40,7 @@ ssh: ssh -i (path to pem file) (username)@(public ip)
 vmss(virtual machine scale set): auto-scaling(aws)
 
 practiced setting up jenkins on a azure-vm.
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 
