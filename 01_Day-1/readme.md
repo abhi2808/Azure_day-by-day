@@ -34,6 +34,8 @@ resource groups are groups of various different types of resources created, help
 - M-series: in-memory workload(largest)
 - N-series: gpu enables(ML)
 
+While setting up an Azure VM, you can pass custom data(like aws user data), which is typically a cloud-init script executed during provisioning, and user data, which is not executed automatically but remains accessible to applications throughout the lifetime of the VM.
+
 chmod 600 (pem-file) //making pem file less accessible
 ssh: ssh -i (path to pem file) (username)@(public ip)
 
