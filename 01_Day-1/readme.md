@@ -1,9 +1,11 @@
  cloud-> set of data-centers containg servers/computer thats job is to run your app(provide resources) 24/7.
  (public, private, hybrid, community)
 
- cloud computing-> working with cloud
+CapEx(own infra) vs OpEx(rent/cloud)
 
-benefits-> scalability, high-avability, disaster recovery
+cloud computing-> working with cloud
+
+benefits-> scalability, consumption bsed model, high-avability, disaster recovery
 
  virtualization-> implemented by hypervisor, method of logically breaking a server into multiple servers. May have already taken place or may happen on call.
 
