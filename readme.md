@@ -1,0 +1,1 @@
+Activities for all the service were performed hands by me, all exept the AKS portions as the pathetic student free tier subscription of the Azure cloud places constant retrictions on the availability of certain types of instances in 1 region meking the task of creating aks clusters unbearable.
