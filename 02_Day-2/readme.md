@@ -1,6 +1,6 @@
 # Azure networking
 
-## Virtual Network(VNET)
+**Virtual Network(VNET)**
 VPC in AWS
 
 why? if multiple VMs on same physical server and one gets hacked other VMs would be vulnerable too. VNET prevents this.

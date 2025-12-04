@@ -33,17 +33,18 @@ multiple users same role=> create group->add users-> give roles to the group its
 
 if resoure wants to communicate with another resource-> service principals and managed identities(in both cases service principles are only created, in service principals you need to manage the rotation and security of keys, MI is azure managed)
 
-## System managed MI
+**System managed MI**
 - created automatically
 - lifecycle tied to resorce
 - cannot be shared(one-on-one)
 
-## User-assigned MI
+**User-assigned MI**
 - created as stand alone resource
 - lifecycle independent
 - can be shared across resources
 
-# activity
+
+# Activity
 
 Say your VM wants to communicate with a blob storage:
 

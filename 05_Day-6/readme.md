@@ -11,7 +11,7 @@
 can use a single monitoring service, but better to use specialized services.
 
 
-## azure monitor
+**azure monitor**
 
 integrate swith various services to collect required metrics, logs and traces. Once collected it cas pass these to others components to help with your specific problem like insights(app insights, catalog etc), visualize(garfana, power Bi etc), analyze(metric exporter, log analytics etc) and respond(AIOps, alert and action etc).
 

@@ -17,16 +17,16 @@ benefits-> scalability, consumption bsed model, high-avability, disaster recover
 provides: IAAS(VM), PAAS(DB), SAAS(Outlook)
 
 
-## resource, resource groups
+**resource, resource groups**
 what you create using a service is a resource created by azure resource manager(as per your configs)(for both ui and cli).
 
 resource groups are groups of various different types of resources created, helps: tracking and managing(access, permissions etc). generally grouped by project and environments. a single resource can have only 1 resource group attatched.
 
 
-## vms
+**vms**
 
 - A-series: retiring
-- Bs-series: free trial, leaarning, pocs
+- B-series: free trial, leaarning, pocs
 - D-series: general purpose
 - E-series: memory optimized(redis)
 - F-series: compute intensive(multi threaded, batch apps, gaming)
